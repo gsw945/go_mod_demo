@@ -10,12 +10,18 @@ go list -m rsc.io/q...
 go get rsc.io/sampler@v1.3
 
 go doc rsc.io/quote/v3
+
+go mod tidy
 ```
 
 ```bash
 go test
+
 go run .
 # go run main.go
+
+go build -o go_mod_demo.exe .
+# go build -o go_mod_demo.exe main.go
 ```
 
 ## refer
